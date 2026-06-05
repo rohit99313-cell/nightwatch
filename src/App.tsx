@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Clock, ShieldAlert, Moon, Settings, Zap, AlertTriangle, X, ChevronRight } from 'lucide-react';
+import { ShieldAlert, Moon, Settings, X, ChevronRight } from 'lucide-react';
 
 const DANGEROUS_WARNINGS = [
   "Neurodegeneration active. You are trading cognitive IQ points for pixels.",
